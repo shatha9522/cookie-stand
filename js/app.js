@@ -128,7 +128,7 @@ totalRow.appendChild(columnTotalCell);
 columnTotalCell.textContent=totalOfColumn[j];
 }
 var grandTotalcell =document.createElement('th');
-grandTotalcell.textContent=grandTotalcell;
+grandTotalcell.textContent=grandTotalcell[j];
 totalRow.appendChild(grandTotalcell);
 locationTable.appendChild(totalRow);
 }    
