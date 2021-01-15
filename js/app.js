@@ -127,9 +127,29 @@ columnTotalCell=document.createElement('th');
 totalRow.appendChild(columnTotalCell);
 columnTotalCell.textContent=totalOfColumn[j];
 }
+console.log(grandTotal);
 var grandTotalcell =document.createElement('th');
-grandTotalcell.textContent=grandTotalcell[j];
+grandTotalcell.textContent=grandTotal;
 totalRow.appendChild(grandTotalcell);
 locationTable.appendChild(totalRow);
 }    
 createTotalRow();
+
+var addedLocation= new CookieStand (branchName, min, max, cookies);
+var standLocation = document.getElementById('standLocation')
+kittenForm.addEventListener('submit', submitter);
+
+function submitter(event) {
+  event.preventDefault();
+  console.log(event);
+  var name = event.target.nameField.value
+  console.log('name', name);
+
+  var minField = event.target.minField.value;
+
+
+}
+var container = document.getElementById('standLocation');
+  // container.textContent =''
+  container.innerHTML =''
+  
