@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
 </head>
+
 <body>
     <header>
         <div class="navbar">
             <a href="#home">Home</a>
             <a href="sales.html">sales</a>
             <a href="#contact">Contact</a>
-          </div>
-          
+        </div>
+        <div class="head1">
+            <h1>Welcome To Salmon Cookie Stand </h1>
+
+            <h2> Open 7 Dayes a Week </h2>
+            <h3> 6AM TO 8PM</h3>
+
+
+            <img id="img1"
+                src="data:image/png;base64,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 " />
+        </div>
+        <div class="images">
+            <img id="img2" src="img/fish.jpg"/>
+            <img id="img3" src="img/shirt.jpg"/>
+
+        </div>
+        <p> </p>
+
     </header>
 </body>
+
 </html>
